@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "about": "About",
+    "included": "Included",
+    "schedule": "Schedule",
+    "gallery": "Gallery",
+    "pricing": "Pricing",
+    "bookNow": "Book Now",
+    "language": "Language"
+  },
+  "hero": {
+    "presents": "Fersadou Travel Presents",
+    "annaba": "Annaba",
+    "beachTrip": "Beach Trip",
+    "subtitle": "Escape the ordinary and immerse yourself in the crystal-clear waters and golden sands of Annaba.",
+    "dateLabel": "Date",
+    "date": "30 July 2026",
+    "priceLabel": "Price",
+    "priceValue": "3800 DZD",
+    "perPerson": "/ person",
+    "bookButton": "Book Your Spot Now",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About The Trip",
+    "heading1": "Experience Summer",
+    "heading2": "Like Never Before",
+    "desc": "Join Fersadou Travel for an unforgettable getaway to the stunning beaches of Annaba. Leave your worries behind and step into a day filled with relaxation, adventure, and perfect summer vibes.",
+    "f1Title": "Perfect Weather",
+    "f1Desc": "Enjoy the warm Mediterranean sun.",
+    "f2Title": "Crystal Waters",
+    "f2Desc": "Swim in pristine, clear blue sea.",
+    "f3Title": "Fully Organized",
+    "f3Desc": "We handle the details, you enjoy the trip."
+  },
+  "included": {
+    "title": "What's Included",
+    "heading": "Everything You Need For A Perfect Day",
+    "items": {
+      "transport": { "title": "Round-trip Transportation", "desc": "Comfortable and safe travel from the departure point to the beach and back." },
+      "breakfast": { "title": "Breakfast", "desc": "Start your day right with a delicious morning breakfast." },
+      "tables": { "title": "Reserved Beach Tables", "desc": "Your own dedicated spot to relax, eat, and store your belongings." },
+      "horse": { "title": "Horse Riding Experience", "desc": "Enjoy a memorable horse riding session along the beautiful sandy shore." },
+      "swimming": { "title": "Beach Access & Swimming", "desc": "Full access to the pristine beach and crystal clear swimming waters." },
+      "music": { "title": "Live Guitarist Performance", "desc": "Vibe to acoustic tunes played live by our talented guitarist." },
+      "org": { "title": "Full Organization & Assistance", "desc": "Our dedicated team will be on-site to assist you throughout the entire day." }
+    }
+  },
+  "schedule": {
+    "title": "Trip Schedule",
+    "heading": "Your Day At A Glance",
+    "items": {
+      "departure": { "title": "Departure", "desc": "Gathering and departure to Annaba in our comfortable transport." },
+      "arrival": { "title": "Arrival & Breakfast", "desc": "Arrival at the beach, settling at reserved tables, and enjoying breakfast." },
+      "beach": { "title": "Beach Activities", "desc": "Free time for swimming, relaxing, and horse riding by the shore." },
+      "music": { "title": "Live Music Session", "desc": "Gather around for an acoustic live guitarist performance." },
+      "return": { "title": "Return Journey", "desc": "Packing up and starting our journey back home with beautiful memories." }
+    }
+  },
+  "gallery": {
+    "title": "Gallery",
+    "heading": "A Glimpse of Paradise",
+    "img1": "Crystal Clear Waters",
+    "img2": "Beach Relaxation",
+    "img3": "Coastal Views",
+    "img4": "Summer Vibes",
+    "img5": "Tropical Shore",
+    "img6": "Sunset Serenity"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "heading": "Simple & Transparent",
+    "package": "All-Inclusive Package",
+    "currency": "DZD",
+    "amount": "3800",
+    "perPerson": "per person",
+    "bookBtn": "Book Your Ticket Now",
+    "limited": "Limited spots available. Reserve early to guarantee your place.",
+    "benefits": [
+      "Round-trip transportation included",
+      "Delicious breakfast served",
+      "Reserved beach tables",
+      "Horse riding experience",
+      "Beach access & swimming",
+      "Live guitarist performance",
+      "Full organization and assistance"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "heading": "Let's Plan Your Trip",
+    "getInTouch": "Get In Touch",
+    "getInTouchDesc": "Have questions or ready to book? Reach out to us directly through any of the channels below.",
+    "email": "Email",
+    "instagram": "Instagram",
+    "phone": "Phone",
+    "formName": "Full Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone Number",
+    "formMsg": "Message (Optional)",
+    "formMsgPlaceholder": "Tell us about any specific requirements or questions...",
+    "formSubmit": "Send Message",
+    "alertMsg": "Message sent! We'll get back to you shortly."
+  },
+  "footer": {
+    "desc": "Crafting unforgettable travel experiences. We take care of the details so you can focus on making memories.",
+    "rights": "Fersadou Travel. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "about": "À propos",
+    "included": "Inclus",
+    "schedule": "Programme",
+    "gallery": "Galerie",
+    "pricing": "Tarifs",
+    "bookNow": "Réserver",
+    "language": "Langue"
+  },
+  "hero": {
+    "presents": "Fersadou Travel Présente",
+    "annaba": "Annaba",
+    "beachTrip": "Excursion à la Plage",
+    "subtitle": "Échappez à l'ordinaire et plongez dans les eaux cristallines et le sable doré d'Annaba.",
+    "dateLabel": "Date",
+    "date": "30 Juillet 2026",
+    "priceLabel": "Prix",
+    "priceValue": "3800 DZD",
+    "perPerson": "/ personne",
+    "bookButton": "Réservez votre place",
+    "scroll": "Défiler"
+  },
+  "about": {
+    "title": "À Propos du Voyage",
+    "heading1": "Vivez l'Été",
+    "heading2": "Comme Jamais Auparavant",
+    "desc": "Rejoignez Fersadou Travel pour une escapade inoubliable sur les superbes plages d'Annaba. Laissez vos soucis derrière vous et profitez d'une journée de détente, d'aventure et de parfaites vibrations estivales.",
+    "f1Title": "Météo Parfaite",
+    "f1Desc": "Profitez du chaud soleil méditerranéen.",
+    "f2Title": "Eaux Cristallines",
+    "f2Desc": "Nagez dans une mer bleue, claire et immaculée.",
+    "f3Title": "Entièrement Organisé",
+    "f3Desc": "Nous gérons les détails, vous profitez du voyage."
+  },
+  "included": {
+    "title": "Ce qui est Inclus",
+    "heading": "Tout Ce Dont Vous Avez Besoin",
+    "items": {
+      "transport": { "title": "Transport Aller-Retour", "desc": "Un voyage confortable et sûr du point de départ à la plage et retour." },
+      "breakfast": { "title": "Petit-déjeuner", "desc": "Commencez bien votre journée avec un délicieux petit-déjeuner matinal." },
+      "tables": { "title": "Tables Réservées", "desc": "Votre espace dédié pour vous détendre, manger et ranger vos affaires." },
+      "horse": { "title": "Promenade à Cheval", "desc": "Profitez d'une session mémorable d'équitation le long du sable fin." },
+      "swimming": { "title": "Accès Plage & Baignade", "desc": "Accès total à la plage immaculée et aux eaux de baignade cristallines." },
+      "music": { "title": "Performance Live de Guitare", "desc": "Vibrez sur des airs acoustiques joués en direct par notre talentueux guitariste." },
+      "org": { "title": "Organisation Complète", "desc": "Notre équipe dédiée sera sur place pour vous assister toute la journée." }
+    }
+  },
+  "schedule": {
+    "title": "Programme du Voyage",
+    "heading": "Votre Journée En Un Coup D'œil",
+    "items": {
+      "departure": { "title": "Départ", "desc": "Rassemblement et départ pour Annaba dans notre transport confortable." },
+      "arrival": { "title": "Arrivée & Petit-déjeuner", "desc": "Arrivée à la plage, installation aux tables réservées et petit-déjeuner." },
+      "beach": { "title": "Activités à la Plage", "desc": "Temps libre pour la baignade, la détente et l'équitation." },
+      "music": { "title": "Session de Musique Live", "desc": "Rassemblez-vous pour une performance acoustique en direct." },
+      "return": { "title": "Voyage de Retour", "desc": "Emballage et retour à la maison avec de beaux souvenirs." }
+    }
+  },
+  "gallery": {
+    "title": "Galerie",
+    "heading": "Un Aperçu du Paradis",
+    "img1": "Eaux Cristallines",
+    "img2": "Détente à la Plage",
+    "img3": "Vues Côtières",
+    "img4": "Vibrations Estivales",
+    "img5": "Rivage Tropical",
+    "img6": "Sérénité au Coucher du Soleil"
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "heading": "Simple & Transparent",
+    "package": "Forfait Tout Compris",
+    "currency": "DZD",
+    "amount": "3800",
+    "perPerson": "par personne",
+    "bookBtn": "Réservez Votre Billet",
+    "limited": "Places limitées. Réservez tôt pour garantir votre place.",
+    "benefits": [
+      "Transport aller-retour inclus",
+      "Délicieux petit-déjeuner servi",
+      "Tables de plage réservées",
+      "Promenade à cheval",
+      "Accès plage & baignade",
+      "Performance live de guitare",
+      "Organisation complète et assistance"
+    ]
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "heading": "Planifions Votre Voyage",
+    "getInTouch": "Prenez Contact",
+    "getInTouchDesc": "Vous avez des questions ou êtes prêt à réserver ? Contactez-nous directement par l'un des canaux ci-dessous.",
+    "email": "E-mail",
+    "instagram": "Instagram",
+    "phone": "Téléphone",
+    "formName": "Nom Complet",
+    "formEmail": "Adresse E-mail",
+    "formPhone": "Numéro de Téléphone",
+    "formMsg": "Message (Optionnel)",
+    "formMsgPlaceholder": "Faites-nous part de vos besoins ou questions...",
+    "formSubmit": "Envoyer",
+    "alertMsg": "Message envoyé ! Nous vous contacterons sous peu."
+  },
+  "footer": {
+    "desc": "Créer des expériences de voyage inoubliables. Nous nous occupons des détails pour que vous puissiez vous concentrer sur vos souvenirs.",
+    "rights": "Fersadou Travel. Tous droits réservés.",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation"
+  }
+}
