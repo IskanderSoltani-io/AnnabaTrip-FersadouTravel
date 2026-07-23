@@ -71,7 +71,7 @@ const Contact = () => {
                     <Mail className="w-5 h-5 text-primary group-hover:text-white transition-colors" />
                   </div>
                   <div>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Email</p>
+                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">{t('contact.email')}</p>
                     <p className="font-semibold text-slate-900 dark:text-white group-hover:text-primary transition-colors">fersadoutravel@gmail.com</p>
                   </div>
                 </a>
@@ -81,7 +81,7 @@ const Contact = () => {
                     <InstagramIcon className="w-5 h-5 text-pink-600 group-hover:text-white transition-colors" />
                   </div>
                   <div>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Instagram</p>
+                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">{t('contact.instagram')}</p>
                     <p className="font-semibold text-slate-900 dark:text-white group-hover:text-pink-600 transition-colors">@fersadou.travel</p>
                   </div>
                 </a>
@@ -91,8 +91,8 @@ const Contact = () => {
                     <Phone className="w-5 h-5 text-emerald-500 group-hover:text-white transition-colors" />
                   </div>
                   <div>
-                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">Phone</p>
-                    <p className="font-semibold text-slate-900 dark:text-white group-hover:text-emerald-500 transition-colors">+213 556 96 63 05</p>
+                    <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">{t('contact.phone')}</p>
+                    <p className="font-semibold text-slate-900 dark:text-white group-hover:text-emerald-500 transition-colors" dir="ltr" style={{ unicodeBidi: 'isolate' }}>+213 556 96 63 05</p>
                   </div>
                 </a>
               </div>
@@ -148,6 +148,7 @@ const Contact = () => {
                   required
                   className="w-full px-4 py-3 rounded-xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-700 focus:ring-2 focus:ring-primary focus:border-transparent outline-none transition-all text-slate-900 dark:text-white"
                   placeholder="+213 XX XX XX XX"
+                  dir="ltr"
                 />
               </div>
 
