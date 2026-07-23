@@ -51,6 +51,15 @@ const About = () => {
                   <p className="text-sm text-slate-500 dark:text-slate-400">{t('about.f2Desc')}</p>
                 </div>
               </div>
+              <div className="bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 flex items-start gap-4 transition-transform hover:-translate-y-1 hover:shadow-md duration-300 sm:col-span-2">
+                <div className="w-12 h-12 rounded-full bg-emerald-50 dark:bg-emerald-900/30 flex items-center justify-center shrink-0">
+                  <Compass className="w-6 h-6 text-emerald-500" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-slate-900 dark:text-white mb-1">{t('about.f3Title')}</h4>
+                  <p className="text-sm text-slate-500 dark:text-slate-400">{t('about.f3Desc')}</p>
+                </div>
+              </div>
             </div>
           </motion.div>
 
@@ -70,17 +79,7 @@ const About = () => {
                 className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-              <div className="absolute bottom-6 left-6 right-6">
-                <div className="glass-card rounded-2xl p-6 text-white flex items-center gap-4">
-                  <div className="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                    <Compass className="w-7 h-7 text-white" />
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-lg">{t('about.f3Title')}</h4>
-                    <p className="text-sm text-white/80">{t('about.f3Desc')}</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
             
             {/* Decorative dots */}
