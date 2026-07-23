@@ -6,4 +6,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: '/AnnabaTrip-FersadouTravel/',
+  build: {
+    outDir: 'docs',
+    emptyOutDir: true,
+  }
 })
