@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-slate-500">
-          <p>&copy; {currentYear} {t('footer.rights')} - Crafted by Iskander Soltani</p>
+          <p>&copy; {currentYear} {t('footer.rights')} Crafted by Iskander Soltani</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">{t('footer.privacy')}</a>
             <a href="#" className="hover:text-white transition-colors">{t('footer.terms')}</a>
