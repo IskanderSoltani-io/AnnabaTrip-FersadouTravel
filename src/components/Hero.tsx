@@ -88,11 +88,11 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="flex flex-col sm:flex-row gap-6 mb-12 glass-card p-4 rounded-3xl"
         >
-          <div className="flex items-center gap-4 px-6 py-3 border-b sm:border-b-0 sm:border-r border-white/20">
+          <div className="flex items-center gap-4 px-6 py-3 border-b sm:border-b-0 sm:border-e border-white/20">
             <div className="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
               <Calendar className="w-6 h-6 text-cyan-300" />
             </div>
-            <div className="text-left text-white">
+            <div className="text-start text-white">
               <p className="text-xs uppercase tracking-wider text-slate-300">{t('hero.dateLabel')}</p>
               <p className="font-semibold text-lg">{t('hero.date')}</p>
             </div>
@@ -101,7 +101,7 @@ const Hero = () => {
             <div className="w-12 h-12 rounded-full bg-coral/20 flex items-center justify-center">
               <CreditCard className="w-6 h-6 text-coral" />
             </div>
-            <div className="text-left text-white">
+            <div className="text-start text-white">
               <p className="text-xs uppercase tracking-wider text-slate-300">{t('hero.priceLabel')}</p>
               <p className="font-semibold text-lg">{t('hero.priceValue')} <span className="text-sm font-normal text-slate-300">{t('hero.perPerson')}</span></p>
             </div>
