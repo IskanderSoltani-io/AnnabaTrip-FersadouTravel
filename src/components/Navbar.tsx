@@ -48,7 +48,7 @@ const Navbar = () => {
             ))}
           </nav>
           
-          <div className="flex items-center gap-4 border-l pl-4 border-slate-300/30">
+          <div className="flex items-center gap-4 border-s ps-4 border-slate-300/30">
             <select 
               value={i18n.language} 
               onChange={(e) => i18n.changeLanguage(e.target.value)}
