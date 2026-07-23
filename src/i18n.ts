@@ -13,7 +13,7 @@ i18n
       fr: { translation: fr },
       ar: { translation: ar }
     },
-    lng: 'en', // Default language
+    lng: 'ar', // Default language
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false // React already escapes by default
