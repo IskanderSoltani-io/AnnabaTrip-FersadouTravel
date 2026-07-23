@@ -10,7 +10,7 @@ const Pricing = () => {
   return (
     <section id="pricing" className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden">
       {/* Background decoration */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-[800px] max-h-[800px] bg-gradient-to-tr from-blue-200/40 to-cyan-200/40 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-full blur-3xl pointer-events-none z-0"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-[800px] max-h-[800px] bg-gradient-to-tr from-blue-200/40 to-cyan-200/40 dark:from-blue-900/20 dark:to-cyan-900/20 rounded-full blur-3xl pointer-events-none z-0 hidden md:block"></div>
 
       <div className="container mx-auto px-6 md:px-12 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -43,11 +43,9 @@ const Pricing = () => {
         >
           <div className="bg-gradient-to-br from-blue-600 to-cyan-500 p-10 text-center relative overflow-hidden">
             <motion.div 
-              animate={{ rotate: 360, scale: [1, 1.1, 1] }}
-              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-              className="absolute top-0 right-0 p-6 opacity-20"
+              className="absolute -top-12 -right-12 opacity-10 pointer-events-none"
             >
-              <Star className="w-24 h-24 text-white" />
+              <Star className="w-48 h-48 text-white" />
             </motion.div>
             <h4 className="text-white/90 text-lg font-medium mb-2 relative z-10">{t('pricing.package')}</h4>
             <div className="flex justify-center items-end gap-2 text-white relative z-10 mb-4">

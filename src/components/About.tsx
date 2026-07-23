@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section id="about" className="py-24 bg-slate-50 dark:bg-slate-950 relative overflow-hidden">
       {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none hidden md:block">
         <div className="absolute -top-40 -right-40 w-96 h-96 bg-blue-100 dark:bg-blue-900/20 rounded-full blur-3xl opacity-50"></div>
         <div className="absolute top-1/2 -left-40 w-80 h-80 bg-cyan-100 dark:bg-cyan-900/20 rounded-full blur-3xl opacity-50"></div>
       </div>
@@ -72,11 +72,9 @@ const About = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <motion.img 
-                animate={{ y: [0, -15, 0] }}
-                transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
                 src="https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" 
                 alt="Beach relaxation" 
-                className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
+                className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
 
