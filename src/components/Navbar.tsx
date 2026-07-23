@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 md:px-12 flex justify-between items-center">
         <a href="#" className="flex items-center gap-2 group">
           <img src={logo} alt="Fersadou Travel Logo" className="w-10 h-10 rounded-full object-cover group-hover:scale-110 transition-transform" />
-          <span className={`text-xl font-bold tracking-tight ${isScrolled ? 'text-slate-900 dark:text-white' : 'text-white'}`}>
+          <span className="text-xl font-bold tracking-tight text-white">
             Fersadou Travel
           </span>
         </a>
@@ -41,7 +41,7 @@ const Navbar = () => {
               <a 
                 key={link.name} 
                 href={link.href}
-                className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? 'text-slate-600 dark:text-slate-300' : 'text-white/90 hover:text-white'}`}
+                className="text-sm font-medium hover:text-primary transition-colors text-white/90 hover:text-white"
               >
                 {link.name}
               </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <select 
               value={i18n.language} 
               onChange={(e) => i18n.changeLanguage(e.target.value)}
-              className={`bg-transparent border border-slate-300/30 rounded-md px-2 py-1 text-sm outline-none ${isScrolled ? 'text-slate-800 dark:text-white' : 'text-white'}`}
+              className="bg-transparent border border-slate-300/30 rounded-md px-2 py-1 text-sm outline-none text-white"
             >
               <option value="en" className="text-black">EN</option>
               <option value="fr" className="text-black">FR</option>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <button 
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className={`p-2 ${isScrolled ? 'text-slate-900 dark:text-white' : 'text-white'}`}
+            className="p-2 text-white"
           >
             {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>

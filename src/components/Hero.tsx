@@ -13,7 +13,6 @@ const Hero = () => {
       {/* Background with parallax */}
       <motion.div 
         className="absolute inset-0 z-0"
-        style={{ y }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-slate-900/90 z-10" />
         <img 
